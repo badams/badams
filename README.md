@@ -11,7 +11,7 @@ A selection of my open-source contributions that highlight my skills and impact.
 
 ### Laravel - TypeScript Transformations
 
-At a previous employer, as part of an initiative to modernize our frontend practices, We needed a way to share enums between our Laravel backend and React SPA. The existing solution, [TypeScript Transformer](https://spatie.be/docs/typescript-transformer/v2/introduction), was a great starting point but didn’t fully meet our requirements.
+At a previous employer, as part of an initiative to modernize our frontend practices, our team needed a way to share enums between our Laravel backend and React SPA. The existing solution, [TypeScript Transformer](https://spatie.be/docs/typescript-transformer/v2/introduction), was a great starting point but didn’t fully meet our requirements.
 
 To address this, I contributed to the project by submitting pull requests to enhance its extensibility, which were welcomed by the author:
 
@@ -47,6 +47,16 @@ While adopting the Blueprint UI toolkit, I discovered and resolved several issue
 
 These contributions enhanced layout consistency, visual accuracy, and user experience within the Blueprint UI framework.
 
+
+### Electron Builder
+
+While developing an Electron application, we adopted the `electron-builder` package to manage builds and distribution. During implementation, I identified areas for improvement in the auto-update functionality and contributed enhancements to the project.
+
+- [Implemented support for `download-progress` events, enabling real-time progress bars and download speed indicators](https://github.com/electron-userland/electron-builder/pull/1042)
+- [Resolved issues with Google Cloud Storage as a hosting provider](https://github.com/electron-userland/electron-builder/pull/1040)
+- [Fixed issue fetching releases from GitHub](https://github.com/electron-userland/electron-builder/pull/1114)
+
+These contributions helped improve the developer experience by making the auto-update process more reliable and transparent for users.
 ### Yasumi
 
 I came across a public holiday calculation library on Reddit and decided to contribute in its early stages. My contributions focused on improving code quality and adding support for New Zealand holidays.
